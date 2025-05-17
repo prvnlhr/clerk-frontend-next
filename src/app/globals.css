@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+:root {
+  /* Color Variables */
+  /* --background: #ffffff; */
+  --foreground: #1c3553;
+  /* --scheme-color: #131776; */
+  --scheme-color: #0a65cc;
+  --font-primary: #1c3553;
+  --font-secondary: #6d7b94;
+  --font-tertiary: #a2a8b2;
+  --danger-red: #fb2c36;
+  --scheme-secondary: #c9e0fa;
+  --font-button: #6552ee;
+
+  /* Font Weights */
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+}
+
+body {
+  color: var(--font-primary);
+  /* background: var(--background); */
+  font-family: "Satoshi", sans-serif;
+  max-width: 100vw;
+}
+
+:focus {
+  outline: none;
+}
+
+* {
+  user-select: none;
+}
+
+input:-webkit-autofill,
+input,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: #1c3553;
+  background-color: transparent !important;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.scheme-font {
+  color: var(--scheme-color);
+}
+.scheme-bg {
+  background-color: var(--scheme-color);
+}
+.font-primary {
+  color: var(--font-primary);
+}
+.font-secondary {
+  color: var(--font-secondary);
+}
+.danger-red {
+  color: var(--danger-red);
+}
+
+.scheme-secondary-bg {
+  background-color: var(--scheme-secondary);
+}
+
+.font-button {
+  color: var(--font-button);
+}
+
+/* fonts */
+
+.font-thin {
+  font-weight: var(--font-thin);
+}
+.font-extralight {
+  font-weight: var(--font-extralight);
+}
+.font-light {
+  font-weight: var(--font-light);
+}
+.font-normal {
+  font-weight: var(--font-normal);
+}
+.font-medium {
+  font-weight: var(--font-medium);
+}
+.font-semibold {
+  font-weight: var(--font-semibold);
+}
+.font-bold {
+  font-weight: var(--font-bold);
+}
+.font-extrabold {
+  font-weight: var(--font-extrabold);
+}
+.font-black {
+  font-weight: var(--font-black);
+}
+
+.hoverBg {
+  background: linear-gradient(
+    180deg,
+    rgba(178, 221, 255, 0.38) 0%,
+    rgba(255, 250, 235, 0) 100%
+  );
+}
+
+.main-container {
+  font-family: "Lato";
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ck-content {
+  font-family: "Lato";
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.editor-container_classic-editor .editor-container__editor {
+  min-width: 795px;
+  max-width: 795px;
+}
+
+.recharts-legend-item-text {
+  color: #666 !important;
+}
+
+.ProseMirror {
+  padding: 10px !important;
+}
+
+.richtext-overflow-hidden {
+  border: none !important;
+}
+
+.richtext-flex {
+  color: #1c3553;
+}
+
+.rich-text-editor {
+  border-color: red !important;
+  width: 100% !important;
+  height: 100%;
+}
+
+.reactjs-tiptap-editor {
+  background: transparent !important;
+}
+.richtext-bg-background {
+  background-color: transparent !important;
+}
+
+.richtext-outline {
+  outline: white;
+}
+
+.richtext-rounded-\[0\.5rem\] {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
