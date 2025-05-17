@@ -1,0 +1,16 @@
+First give me the flow with  node code.
+Explain me like below,
+
+Job-seeker visits the sign-up page -> '/auth/user/sign-up
+fill details like,
+first name, 
+last name,
+email,
+phone,
+password, confirm password,
+
+data goes to service layer function. service layer function makes the fetch api call to backend -> '/api/auth/..'
+At backend nodejs checks the credentials.....
+
+
+
